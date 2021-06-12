@@ -77,6 +77,11 @@
         "optional": "cpp",
         "random": "cpp",
         "xthread": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "array": "cpp",
+        "bit": "cpp",
+        "*.tcc": "cpp",
+        "cwctype": "cpp",
+        "memory_resource": "cpp"
     }
 }
