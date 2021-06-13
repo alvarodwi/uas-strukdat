@@ -1,4 +1,4 @@
-OUT	:= kruskal
+OUT	:= bin/kruskal
 OBJS	:= main.o
 SOURCE	:= main.cpp
 

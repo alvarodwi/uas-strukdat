@@ -23,6 +23,7 @@ namespace util
         void kruskal();
         void print_graph();
         void print_mst();
+        void clear();
     };
 
     Graph::Graph(int size)
@@ -61,12 +62,11 @@ namespace util
         graph.sort_asc();
         for (i = 0; i < graph.get_size(); i++)
         {
-            weighted_edge temp = graph.at(i);
-            uRep = find_set(temp.second.first);
-            vRep = find_set(temp.second.second);
+            uRep = find_set(graph.at(i).second.first);
+            vRep = find_set(graph.at(i).second.second);
             if (uRep != vRep)
             {
-                mst.push_back(temp);
+                mst.push_back(graph.at(i));
                 union_set(uRep, vRep);
             }
         }
@@ -94,5 +94,11 @@ namespace util
             printf("%d-%d|%d\n", temp.second.first, temp.second.second, temp.first);
         }
         printf("%s: %d\n", "Total", total);
+    }
+
+    void Graph::clear()
+    {
+        graph.clear_list();
+        mst.clear_list();
     }
 }
