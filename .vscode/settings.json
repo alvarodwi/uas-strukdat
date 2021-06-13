@@ -82,6 +82,8 @@
         "bit": "cpp",
         "*.tcc": "cpp",
         "cwctype": "cpp",
-        "memory_resource": "cpp"
+        "memory_resource": "cpp",
+        "forward_list": "cpp",
+        "valarray": "cpp"
     }
 }
