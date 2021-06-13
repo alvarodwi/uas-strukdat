@@ -3,15 +3,12 @@
 Implementasi koding dari paper di Internet, mengenai permasalahan Graph dan Tree
 
 Rifqy Kurnia Sudarman - 14081020039
+
 Alvaro Dwi Oktaviano - 140810200041
 
 ## Paper yang Digunakan
 
-Kami menggunakan paper **“[Penerapan Teori Graf pada Jaringan Komputer dengan Algoritma Kruskal](https://ejournal.poltektegal.ac.id/index.php/informatika/article/download/1032/pdf_28)”** yang ditulis oleh Fajar Mahardika.
-
-Paper ini dipublish di Jurnal Informatika : Jurnal Pengembangan IT (JPIT), Vol 04, No.01, Januari 2019.
-
-Sesuai judulnya, paper ini membahas penerapan algoritma kruskal untuk membangun jaringan komputer, dalam hal ini, optimasi panjang kabel yang digunakan.
+Kami menggunakan paper **“[Penerapan Teori Graf pada Jaringan Komputer dengan Algoritma Kruskal](https://ejournal.poltektegal.ac.id/index.php/informatika/article/download/1032/pdf_28)”** yang ditulis oleh Fajar Mahardika. Paper ini dipublish di Jurnal Informatika : Jurnal Pengembangan IT (JPIT), Vol 04, No.01, Januari 2019. Sesuai judulnya, paper ini membahas penerapan algoritma kruskal untuk membangun jaringan komputer, dalam hal ini, optimasi panjang kabel yang digunakan.
 
 ## Algoritma yang Dipakai
 
